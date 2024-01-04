@@ -14,11 +14,11 @@ function menu_api($file){
 	print p."4. ".k."2Captcha\n";
 	print p."5. ".k."AntiCaptcha\n";
 	print p."6. ".k."1stCaptcha\n";
-	$pilih = readline(mp."Select Bypass Provider : ".d.n);
+	$pilih = readline(mp."Bypass Secimi Yap : ".d.n);
 	if($pilih == 1){
 		$data["type"] = 1;
 		$data["url"] = "https://ocr.captchaai.com/";
-		$data["ref"] = "short.api-iewil.my.id/Api/captchaai";
+		$data["ref"] = "https://clk.today/captchaai";
 		$data["cc"] = '$';
 		$data["captcha"]["recaptchav2"] = 1;
 		$data["captcha"]["hcaptcha"] = 1;
@@ -28,7 +28,7 @@ function menu_api($file){
 	}elseif($pilih == 2){
 		$data["type"] = 1;
 		$data["url"] = "http://goodxevilpay.pp.ua/";
-		$data["ref"] = "short.api-iewil.my.id/Api/xevil";
+		$data["ref"] = "https://clk.today/xevil";
 		$data["cc"] = "Rub";
 		$data["captcha"]["recaptchav2"] = 1;
 		$data["captcha"]["hcaptcha"] = 1;
@@ -38,7 +38,7 @@ function menu_api($file){
 	}elseif($pilih == 3){
 		$data["type"] = 1;
 		$data["url"] = "http://api.multibot.in/";
-		$data["ref"] = "short.api-iewil.my.id/Api/multi";
+		$data["ref"] = "https://clk.today/multi";
 		$data["cc"] = '$';
 		$data["captcha"]["recaptchav2"] = 1;
 		$data["captcha"]["hcaptcha"] = 1;
@@ -48,7 +48,7 @@ function menu_api($file){
 	}elseif($pilih == 4){
 		$data["type"] = 1;
 		$data["url"] = "http://2captcha.com/";
-		$data["ref"] = "short.api-iewil.my.id/Api/2cap";
+		$data["ref"] = "ttps://clk.today/2capt";
 		$data["cc"] = '$';
 		$data["captcha"]["recaptchav2"] = 1;
 		$data["captcha"]["hcaptcha"] = 1;
@@ -58,7 +58,7 @@ function menu_api($file){
 	}elseif($pilih == 5){
 		$data["type"] = 2;
 		$data["url"] = "https://api.anti-captcha.com/";
-		$data["ref"] = "short.api-iewil.my.id/Api/anticap";
+		$data["ref"] = "https://clk.today/anti";
 		$data["cc"] = '$';
 		$data["captcha"]["recaptchav2"] = 1;
 		$data["captcha"]["hcaptcha"] = 1;
@@ -68,7 +68,7 @@ function menu_api($file){
 	}elseif($pilih == 6){
 		$data["type"] = 3;
 		$data["url"] = "https://api.1stcaptcha.com/";
-		$data["ref"] = "short.api-iewil.my.id/Api/1stcap";
+		$data["ref"] = "https://clk.today/1stc";
 		$data["cc"] = '$';
 		$data["captcha"]["recaptchav2"] = 1;
 		$data["captcha"]["hcaptcha"] = 1;
